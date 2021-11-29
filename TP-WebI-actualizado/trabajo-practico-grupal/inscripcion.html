@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilos.css" rel=stylesheet>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/codigo-inscripcion.js"></script>
+    <title>Inscripcion</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="logo" src="img/logo-blanco.png" alt="logo">
+        </div>
+        <nav class="nav_links">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="calendario.html">Calendario</a></li>
+                <li><a href="establecimientos.html">Establecimientos</a></li>
+                <li><a href="inscripcion.html">Inscripcion</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Inscripcion</h2>
+        <div class="data-inscripcion">
+            <p>Inscripción al curso de Ingles Nivel II en la sede Punto idioma - Belgrano. Horario: Lunes y viernes de 9:00 hs a 12:00 hs El curso inicia el día 26/10/2021 El precio es de $1300.-
+            </p>
+        </div>
+        <section class="formulario-inscripcion">
+            <form action="#" method="POST" id="form">
+                <label for="mail"></label>Email</label>
+                <br />
+                <input id="mail" type="email" name="emails" placeholder="Ingrese su email">
+                <br />
+
+                <label for="provincias">Provincia</label>
+                <br />
+                <select id="provincias" name="provincias">
+                    <option value="1">Buenos Aires</option>
+                    <option value="2">Cordoba</option>
+                    <option value="3">Santa Fe</option>
+                </select>
+                <br>
+
+                <label for="ciudades">Ciudad</label>
+                <br />
+                <select id="ciudades" name="establecimientos">
+                    <option value="1">CABA</option>
+                    <option value="2">GBA</option>
+                    <option value="3">Rosario</option>
+                    <option value="4">Córdoba</option>
+                </select>
+
+                <br>
+                <label for="nombre">Nombre</label>
+                <br>
+                <input id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre">
+                <br>
+
+                <label for="apellido">Apellido  </label>
+                <br>
+                <input id="apellido" type="text" name="apellido" placeholder="Ingrese su apellido">
+
+                <br>
+                <label for="tel">Telefono </label>
+                <br>
+                <input id="tel" type="tel" name="tel" placeholder="Ingrese su Telefono" pattern="[0-9]{8,}" >
+
+                <br>
+                <input type="submit"  value="Inscribite">
+                <div id="mensaje" class="error">
+
+                </div>
+            </form>
+        </section>
+
+
+    </main>
+    <footer>
+        <section class="nombres">
+            <p>Rocio Belen Crespo - 42.421.309 <br> Oriana Nerea Lombardi - 41.548.291 <br> Maximiliano Pafundi - 42.100.334 <br> Gabriel Salvador Forestiero - 42.957.690<br> <br> <br> © Punto Idioma, All rights reserved.
+                <p>
+        </section>
+
+        <section class="menu-footer">
+            <a href="index.html">Inicio<a>
+            <a href="nosotros.html">Nosotros<a>
+            <a href="calendario.html">Calendario<a>
+            <a href="establecimientos.html">Establecimientos<a>
+            <a href="inscripcion.html">Inscripcion<a>
+            <a href="contacto.html">Contacto<a>
+        </section>
+
+        <section class="redes">
+            <h3>Seguinos en nuestras redes</h3>
+            <p>Tel: 4462-1541 <br>
+                Wpp: +54 011 26514123
+            <p><br>
+            <p>@PuntoIdiomas <br>
+                https://www.facebook.com/puntoidiomas/</p><br>
+            <p>@PuntoIdiomas <br>
+                https://www.instagram.com/puntoidiomas/</p>
+            <section>
+    </footer>
+
+
+</body>
+</html>

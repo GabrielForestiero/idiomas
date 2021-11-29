@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilos-index.css" rel=stylesheet>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/codigo-index.js"></script>
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
+
+    <title>PuntoIdioma</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="logo" src="img/logo-blanco.png" alt="logo">
+        </div>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="calendario.html">Calendario</a></li>
+                <li><a href="establecimientos.html">Establecimientos</a></li>
+                <li><a href="inscripcion.html">Inscripcion</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="img-portada">
+            <article class="single-item">
+                <img src="img/portada-text.png" alt="portada">
+                <img src="img/portada-2.png" alt="portada">
+                <img src="img/portada-3.png" alt="portada">
+            </article>
+        </section>
+
+
+
+        <h2 class="titulo-cursos">Cursos más vendidos</h2>
+        <section class="cursos-general">
+            <article class="cursos">
+                <img src="img/bandera-francia.jpg" alt="Francia" class="banderas">
+                <p>Frances - Nivel I</p>
+            </article>
+            <article class="cursos">
+                <img src="img/bandera-brasil.jpg" alt="Portugues" class="banderas">
+                <p>Portugues - Nivel I</p>
+            </article>
+            <article class="cursos">
+                <img src="img/bandera-inglaterra.jpg" alt="Inglaterra" class="banderas">
+                <p>Ingles - Nivel I</p>
+            </article>
+            <article class="cursos">
+                <img src="img/bandera-italia.jpg" alt="Italia" class="banderas">
+                <p>Italiano - Nivel I</p>
+            </article>
+        </section>
+
+        <section class="pasos-general">
+            <article class="pasos">
+                <img src="img/icono-1.png" alt="establecimientos" class="iconos">
+                <p>Busca tu sucursal</p>
+            </article>
+            <article class="pasos">
+                <img src="img/icono-2.png" alt="cursos" class="iconos">
+                <p>Selecciona el curso</p>
+            </article>
+            <article class="pasos">
+                <img src="img/icono-3.png" alt="anotate" class="iconos">
+                <p>Inscribite</p>
+            </article>
+        </section>
+
+
+        <section class="formulario">
+            <div class="formulario1">
+                <h2>Busca el curso e inscribite</h2>
+                <label class="sedes" for="provincias">Provincias</label>
+                <br/>
+                <select name="provincias" id="provincias">
+                        
+                        <option value="buenosaires"> Buenos Aires </option>
+                        <option value="santafe"> Santa Fe </option>
+                        <option value="cordoba"> Cordoba </option>
+                        <br>
+                    </select>
+
+                <section id="textos">
+                    <article class="buenosaires palermo">
+                        <p>
+                            <br/> Nombre: Punto Idioma sede Palermo <br/> Provincia: Buenos Aires, Argentina <br> Direccion: Av. Luis María Campos 170, CABA <br> Telefono: +54 011 56487545 <br> Idiomas que se dictan: Ingles - Portuges - Italiano - Frances
+                        </p>
+                    </article>
+
+                    <article class="buenosaires ramos">
+                        <p>
+                            <br/> Nombre: Punto Idioma sede Ramos Mejia <br/> Provincia: Buenos Aires, Argentina <br> Dirección: Cuba 2202, Ramos mejía <br> Teléfono: +54 011 12456214 <br> Idiomas que se dictan: Ingles - Portugués - Italiano - Francés
+                        </p>
+                    </article>
+
+                    <article class="santafe rosario">
+                        <p>
+                            <br/> Nombre: Punto Idioma sede Santa Fe <br/> Provincia: Santa Fe, Argentina <br> Dirección: Blvd. 27 de Febrero 2439, Santa Fe <br> Teléfono: +54 341 4331330
+                            <br> Idiomas que se dictan: Ingles - Portugués - Italiano - Francés
+                        </p>
+                    </article>
+
+                    <article class="cordoba cordoba">
+                        <p>
+                            <br/> Nombre: Punto Idioma sede Cordoba <br/> Provincia: Córdoba, Argentina <br> Dirección: Av. Vélez Sarsfield 215, Córdoba <br> Teléfono: +54 351 7420285 <br> Idiomas que se dictan: Ingles - Portugués - Italiano - Francés
+                        </p>
+                    </article>
+
+                    <a class="boton" href="inscripcion.html">Inscripción</a>
+
+                </section>
+            </div>
+
+            <br>
+
+
+
+
+            <div class="formulario2">
+                <label class="sedes" for="establecimientos">Establecimientos</label>
+                <br/>
+                <select id="establecimientos" name="establecimientos">
+                <option value="palermo">Punto Idioma sede Palermo</option>
+                <option value="ramos">Punto Idioma sede Ramos Mejía</option>
+                <option value="rosario">Punto Idioma sede Rosario</option>
+                <option value="cordoba">Punto Idioma sede Córdoba</option>
+                </select>
+                <br/>
+
+
+                <label for="mail"></label>Ingresa tu email</label>
+                <br />
+                <input id="mail" type="email" name="emails" placeholder="Ingrese su email" required>
+                <br />
+
+                <label for="cursos" as>Idiomas que se dictan</label>
+                <br />
+                <select id="cursos" name="cursos">
+                    <option value="1">Portugués</option>
+                    <option value="2">Francés</option>
+                    <option value="3">Italiano</option>
+                    <option value="4">Inglés</option>
+                </select>
+
+                <br />
+                <label for="horarios">Horario y modalidad</label>
+                <br />
+                <select id="horarios" name="horarios">
+                    <option value="1">Presencial - mañana</option>
+                    <option value="2">Presencial - tarde</option>
+                    <option value="3">Presencial - noche</option>
+                    <option value="4">Virtual - mañana</option>
+                    <option value="5">Virtual - tarde</option>
+                    <option value="6">Virtual - noche</option>
+                </select>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="nombres">
+            <p>Rocio Belen Crespo - 42.421.309 <br> Oriana Nerea Lombardi - 41.548.291 <br> Maximiliano Pafundi - 42.100.334 <br> Gabriel Salvador Forestiero - 42.957.690<br> <br> <br> © Punto Idioma, All rights reserved.
+                <p>
+        </section>
+
+        <section class="menu-footer">
+            <a href="index.html">Inicio<a>
+            <a href="nosotros.html">Nosotros<a>
+            <a href="calendario.html">Calendario<a>
+            <a href="establecimientos.html">Establecimientos<a>
+            <a href="inscripcion.html">Inscripcion<a>
+            <a href="contacto.html">Contacto<a>
+        </section>
+
+        <section class="redes">
+            <h3>Seguinos en nuestras redes</h3>
+            <p>Tel: 4462-1541 <br>
+                Wpp: +54 011 26514123
+            <p><br>
+            <p>@PuntoIdiomas <br>
+                https://www.facebook.com/puntoidiomas/</p><br>
+            <p>@PuntoIdiomas <br>
+                https://www.instagram.com/puntoidiomas/</p>
+            <section>
+    </footer>
+  
+
+    <script>
+        $(document).ready(function(){
+            $('.single-item').slick({
+                autoplay: true,
+                autoplaySpeed: 2000,
+                
+            });
+        });
+       
+    </script>
+</body>
+
+</html>
